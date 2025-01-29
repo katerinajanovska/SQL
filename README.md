@@ -14,3 +14,11 @@ The project is based on datasets freely available on the City of Chicago's websi
 
 
 The original datasets are large and a significant portion of the columns are not relevant for purpose of this project. To maintain clarity, the data model below includes analyzed columns only.
+
+| census | crime | schools|
+|------------|------------|------------|
+| COMMUNITY_AREA_NUMBER | COMMUNITY_AREA_NUMBER | COMMUNITY_AREA_NUMBER |
+| COMMUNITY_AREA_NAME | ID  | SCHOOL_ID |
+| PER_CAPITA_INCOME | CASE_NUMBER| NAME_OF_SCHOOLS |
+| HARDSHIP_INDEX| DATE  | HEALTHY_SCHOOL_CERTIFIED  |
+| PERCENT_HOUSEHOLDS_BELOW_POVERTY| PRIMARY_TYPE| COMMUNITY_AREA_NAME  |
